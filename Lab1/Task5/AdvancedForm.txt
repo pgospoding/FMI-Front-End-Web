@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>Advanced Form</title>
+    </head>
+    <body>
+   <form>
+  <fieldset>
+      <legend>User information<abbr title="User information" aria-label="required">*</abbr></legend>
+     
+         <label for="name">Username:</label>
+         <input id="name" name="i_like">
+    <p>
+    <label for="pass">Password:</label>
+    <input id="pass" pass="i_like">
+    <p>
+    </fieldset>
+
+</form>
+  <form>
+  <fieldset>
+<legend>Personal Information<abbr title="Personal Information" aria-label="required">*</abbr></legend>
+    <label for="name">First name:</label>
+<p>
+    <input id="name" name="i_like">
+<p>
+<label for="name1">Last name:</label>
+<p>
+    <input id="name1" name1="i_like">
+<p>
+
+      <input type="radio" required name="Male" id="r1" value="Male"><label for="r1">Male</label>
+      <input type="radio" required name="Female" id="r2" value="Female"><label for="r2">Female</label>
+   <p>
+ <br>
+                <label for = "favouriteFood">Favorite Food</label>
+                <select name = "favouriteFood">
+                    <option value = "chocolate">Chocolate</option>
+                    <option value = "icecream">Ice cream</option>
+                    <option value = "vegetables">Vegetables</option>
+                </select>
+    </fieldset>
+ <button>Submit</button>
+  <button>Reset</button>
+</form>
+    </body>
+</html>
